@@ -14,3 +14,4 @@ Offline ad design:
 In-app screenshot:
 
 ![Offline Ad Screenshot](examples/screenshot_20190610-154840.jpg?raw=true "Offline Ad Screenshot")
+ 
