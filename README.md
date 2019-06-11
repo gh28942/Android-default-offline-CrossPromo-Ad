@@ -5,4 +5,8 @@ You can use this implementation in your Android app to show an ad to a user even
 
 In order to show the app, simply use an Intent->startActivity() for the default_ad class in your onInterstitialLoadFailed, if the Interstitial isn't ready when it should be shown, and if the Interstitial is null.
 
+Offline ad design:
 ![Offline Ad Design](examples/default-ad-design.png?raw=true "Offline Ad Design")
+
+In-app screenshot:
+![Offline Ad Screenshot](examples/screenshot_20190610-154840.jpg?raw=true "Offline Ad Screenshot")
