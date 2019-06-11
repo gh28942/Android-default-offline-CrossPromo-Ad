@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg_default_ad">
+
+    <ImageView
+        android:id="@+id/imageViewDefaultAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/fitness_ad"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:contentDescription="Default advertisement" />
+
+    <ImageView
+        android:id="@+id/imageViewDefaultLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:elevation="10dp"
+        android:contentDescription="App Logo"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewDefaultAd"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDefaultAd"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/textViewDefaultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your App Name Here"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewDefaultLogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDefaultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Short text/slogan here.\Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewDefaultTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/buttonDefaultAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download App"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:elevation="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewDefaultText"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:background="#009A0B"/>
+
+    <Button
+        android:id="@+id/buttonInvisibleDefaultAd"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="download"
+        android:background="#00FFFFFF"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
