@@ -11,8 +11,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 /**
- * by GerH, 11.06.2019
+ * created by http://bit.ly/GerhGithub, 11.06.2019
  */
+
 public class default_ad extends AppCompatActivity {
 
     String ad_url = "http://bit.ly/fitClock";
