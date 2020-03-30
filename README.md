@@ -3,12 +3,13 @@ An <b>offline ad</b> that can be shown to Android app users if they don't have a
 
 You can use this implementation in your Android app to <b>show an ad to a user</b> even if he has <b>turned off or doesn't have an internet connection</b>. This way, you can <b>cross-promote other apps/products</b> you've made.
 
-In order to show the app, simply use an Intent->startActivity() for the default_ad class in your onInterstitialLoadFailed, if the Interstitial isn't ready when it should be shown, and if the Interstitial is null.
+In order to show the app, simply use an <b>Intent->startActivity()</b> for the default_ad class in your <i>onInterstitialLoadFailed</i>, if the <i>Interstitial isn't ready</i> when it should be shown, and if the <i>Interstitial is null</i>.
 
-
-Offline ad design:
 <br>
 <hr>
+
+## Offline ad design:
+
 <br>
 <p align="center">
 <img src="https://raw.githubusercontent.com/gh28942/Android-default-offline-CrossPromo-Ad/master/examples/default-ad-design.png" width="80%">
@@ -25,3 +26,5 @@ Offline ad design:
 <hr>
 <br>
 You can find the offline <i>banner</i> here: https://github.com/gh28942/Android-default-offline-CrossPromo-Ad-banner
+<br>
+<br>
